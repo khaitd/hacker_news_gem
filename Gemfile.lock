@@ -1,0 +1,55 @@
+PATH
+  remote: .
+  specs:
+    hacker_news (0.1.0)
+      colorize
+      nokogiri
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    coderay (1.1.1)
+    colorize (0.8.0)
+    diff-lcs (1.2.5)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    method_source (0.8.2)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rake (10.5.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.2)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.10)
+  hacker_news!
+  launchy (~> 2.4)
+  pry
+  rake (~> 10.0)
+  rspec
+
+BUNDLED WITH
+   1.12.5
